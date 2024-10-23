@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore build directories
+dist/
+build/
+
+# Except the directories themselves
+#if you remove this folder name to local ka sara uplodas vidoes live par chala jayega
+#be carefull if u added new folder then go to aws and create that folder ok
+uploads/
